@@ -49,7 +49,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Line about what you are or what makes you a great software engineer
+          Driven junior software engineer with a knack for solving complex problems and a passion for continuous learning and innovation.
         </p>
         <a href="https://docs.google.com/document/d/10AGCHf8YD8skNDnBXp0Gl6me3CnBz2p4/edit?usp=sharing&ouid=110621110171723706693&rtpof=true&sd=true">
           <button className="hover">Resume</button>
