@@ -27,7 +27,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={mealMasters}
-          link={"https://meal-masters.onrender.com"}
+          link={"https://github.com/ProgrammerKJ/Meal_Masters"}
           h3="Meal Masters"
           p="Food Recipe App"
         />
