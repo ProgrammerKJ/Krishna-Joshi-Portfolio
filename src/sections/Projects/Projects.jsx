@@ -3,13 +3,11 @@ import movieMingleLight from "../../assets/MovieMingleLight.png";
 import movieMingleDark from "../../assets/MovieMingleDark.png";
 import mealMastersLight from "../../assets/MealMasterLight.png";
 import mealMastersDark from "../../assets/MealMasterDark.png";
-import fashionStopLight from "../../assets/FashionStopLight.png";
-import fashionStopDark from "../../assets/FashionStopDark1.png";
 import joblyLight from "../../assets/Joblylight.png";
 import joblyDark from "../../assets/JoblyDark2.png";
-import hackOrSnoozeLight from "../../assets/HackorSnoozeLight1.png";
-import hackOrSnoozeDark from "../../assets/HackorSnoozedark1.png";
 import ProjectCard from "../../common/ProjectCard";
+import cryptoLight from "../../assets/Cryptocoinlight.png";
+import cryptoDark from "../../assets/Cryptocoindark.png";
 
 import { useTheme } from "../../common/ThemeContext";
 
@@ -18,7 +16,7 @@ function Projects() {
 
   const movieMingle = theme === "light" ? movieMingleDark : movieMingleLight;
   const mealMasters = theme === "light" ? mealMastersDark : mealMastersLight;
-  const fashionStop = theme === "light" ? fashionStopDark : fashionStopLight;
+  const crypto = theme === "light" ? cryptoDark : cryptoLight;
   const jobly = theme === "light" ? joblyDark : joblyLight;
 
   return (
@@ -40,9 +38,10 @@ function Projects() {
           p="Social Media App"
         />
         <ProjectCard
-          src={fashionStop}
-          h3="Fashion Stop (In Progress)"
-          p="E Commerce App"
+          src={crypto}
+          link={"https://cryptocoin23.netlify.app/"}
+          h3="CryptoCoin"
+          p="Crypto Currency App"
         />
         <ProjectCard
           src={jobly}
