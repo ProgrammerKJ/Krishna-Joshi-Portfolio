@@ -3,11 +3,11 @@ import movieMingleLight from "../../assets/MovieMingleLight.png";
 import movieMingleDark from "../../assets/MovieMingleDark.png";
 import mealMastersLight from "../../assets/MealMasterLight.png";
 import mealMastersDark from "../../assets/MealMasterDark.png";
-import joblyLight from "../../assets/Joblylight.png";
-import joblyDark from "../../assets/JoblyDark2.png";
 import ProjectCard from "../../common/ProjectCard";
 import cryptoLight from "../../assets/Cryptocoinlight.png";
 import cryptoDark from "../../assets/Cryptocoindark.png";
+import feastFinderLight from "../../assets/FeastFinderLight.png";
+import feastFinderDark from "../../assets/FeastFinderDark.png";
 
 import { useTheme } from "../../common/ThemeContext";
 
@@ -17,11 +17,14 @@ function Projects() {
   const movieMingle = theme === "light" ? movieMingleDark : movieMingleLight;
   const mealMasters = theme === "light" ? mealMastersDark : mealMastersLight;
   const crypto = theme === "light" ? cryptoDark : cryptoLight;
-  const jobly = theme === "light" ? joblyDark : joblyLight;
+  const feastFinder = theme === "light" ? feastFinderDark : feastFinderLight;
 
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
+      <h2 className="project-below-text" style={{ marginBottom: "20px" }}>
+        Walkthroughs & Deployment Links In Github Readme Section
+      </h2>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={mealMasters}
@@ -44,10 +47,10 @@ function Projects() {
           p="Crypto Currency App"
         />
         <ProjectCard
-          src={jobly}
-          link={"https://github.com/ProgrammerKJ/React_Jobly"}
-          h3="Jobly"
-          p="Job Search App"
+          src={feastFinder}
+          link={"https://github.com/ProgrammerKJ/Food-Delivery"}
+          h3="Feast Finder"
+          p="Food Delivery Application"
         />
       </div>
     </section>
