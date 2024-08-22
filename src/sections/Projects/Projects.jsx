@@ -48,7 +48,7 @@ function Projects() {
         />
         <ProjectCard
           src={feastFinder}
-          link={"https://github.com/ProgrammerKJ/Food-Delivery"}
+          link={"https://github.com/ProgrammerKJ/FeastFinders_Food_Delivery"}
           h3="Feast Finder"
           p="Food Delivery Application"
         />
