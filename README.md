@@ -74,7 +74,7 @@ Meal Master is a full-stack application designed to help users create personaliz
 - Add social features for sharing meal plans
 - Integrate with fitness tracking apps for comprehensive health monitoring
 
-### 1. Movie Mingle: Social Media Platform for Movie Enthusiasts
+### 3. Movie Mingle: Social Media Platform for Movie Enthusiasts
 
 Movie Mingle is a full-stack social media application designed for movie enthusiasts to connect, share their thoughts on films and TV shows, and manage their watchlists.
 Key Features:
