@@ -77,52 +77,53 @@ Meal Master is a full-stack application designed to help users create personaliz
 ### 3. Movie Mingle: Social Media Platform for Movie Enthusiasts
 
 Movie Mingle is a full-stack social media application designed for movie enthusiasts to connect, share their thoughts on films and TV shows, and manage their watchlists.
-Key Features:
 
-User profiles with customization options
-Feed section for users to post and interact with content
-Comment functionality on posts
-Like system for posts
-Friend system to connect with other users
-Watchlist feature to track movies to watch and already watched
-Integration with a movie database API for comprehensive film information
-Search functionality to find movies and add them to watchlists
+**Key Features:**
 
-Technologies Used:
+- User profiles with customization options
+- Feed section for users to post and interact with content
+- Comment functionality on posts
+- Like system for posts
+- Friend system to connect with other users
+- Watchlist feature to track movies to watch and already watched
+- Integration with a movie database API for comprehensive film information
+- Search functionality to find movies and add them to watchlists
 
-Frontend: React
-Backend: Node.js, Express
-Database: MySQL
-State Management: React Hooks, AppReducer
-External API: Rapid API, movies DB API
+**Technologies Used:**
 
-Technical Highlights:
+- Frontend: React
+- Backend: Node.js, Express
+- Database: MySQL
+- State Management: React Hooks, AppReducer
+- External API: Rapid API, movies DB API
 
-Implemented a responsive and interactive user interface using React
-Developed a RESTful API with Express for handling user interactions and data management
-Utilized AppReducer for efficient state management across the application
-Integrated external movie database API to provide comprehensive film information
-Implemented real-time updates for user interactions (comments, likes, friend requests)
-Designed and implemented a database schema to handle complex relationships between users, posts, and movies
+**Technical Highlights:**
 
-Future Enhancements:
+- Implemented a responsive and interactive user interface using React
+- Developed a RESTful API with Express for handling user interactions and data management
+- Utilized AppReducer for efficient state management across the application
+- Integrated external movie database API to provide comprehensive film information
+- Implemented real-time updates for user interactions (comments, likes, friend requests)
+- Designed and implemented a database schema to handle complex relationships between users, posts, and movies
 
-Implement movie recommendations based on user preferences and watch history
-Add a rating system for movies and shows
-Integrate with streaming platforms to show where movies are available to watch
-Implement real-time chat functionality between friends
+**Future Enhancements:**
+
+- Implement movie recommendations based on user preferences and watch history
+- Add a rating system for movies and shows
+- Integrate with streaming platforms to show where movies are available to watch
+- Implement real-time chat functionality between friends
 
 
-🛠️ Technologies Used
-This portfolio demonstrates proficiency in:
+**🛠️ Technologies Used**
+**This portfolio demonstrates proficiency in:**
 
-Frontend: React, Vite, JavaScript, HTML, CSS
-Backend: Node.js, Express, Python, Flask
-Databases: MongoDB, PostgreSQL
-State Management: React Hooks, Context API, AppReducer
-Testing: Jest, Vitest, Cypress
-APIs: RESTful API design, External API integration (Stripe, Spoonacular, Movie Database)
-Other: Git, npm, pip
+- Frontend: React, Vite, JavaScript, HTML, CSS
+- Backend: Node.js, Express, Python, Flask
+- Databases: MongoDB, PostgreSQL
+- State Management: React Hooks, Context API, AppReducer
+- Testing: Jest, Vitest, Cypress
+- APIs: RESTful API design, External API integration (Stripe, Spoonacular, Movie Database)
+- Other: Git, npm, pip
 
 ## 🏗️ Setup and Installation
 
@@ -159,6 +160,6 @@ In the project directory, you can run:
 
 Feel free to reach out to me at:
 
-- Email: your.email@example.com
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/krishnajoshi28)
-- GitHub: [Your GitHub Profile](https://github.com/programmerkj)
+- Email: krihna.joshi28@yahoo.com
+- LinkedIn:(https://www.linkedin.com/in/krishnajoshi28)
+- GitHub: (https://github.com/programmerkj)
