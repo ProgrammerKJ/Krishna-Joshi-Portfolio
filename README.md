@@ -62,7 +62,7 @@ A comprehensive food delivery platform with real-time order tracking, secure pay
 ---
 
 ### 3. Meal Master: Personalized Meal Planning Application
-**[GitHub](https://github.com/programmerKJ/Meal_Masters)** | [Demo Video](https://www.loom.com/share/c4aa7d9e35c24ec5832cdf50c5bd368d?sid=40d42fe1-5764-459b-b8ec-549effb7375f)**
+**[GitHub](https://github.com/programmerKJ/Meal_Masters) | [Demo Video](https://www.loom.com/share/c4aa7d9e35c24ec5832cdf50c5bd368d?sid=40d42fe1-5764-459b-b8ec-549effb7375f)**
 
 
 A full-stack application for creating personalized meal plans, tracking weight, and monitoring health progress with extensive meal database integration.
