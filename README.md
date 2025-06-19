@@ -1,154 +1,172 @@
 # Krishna Joshi's Portfolio
 
-Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a developer.
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a full-stack developer.
 
-## 🚀 Projects
+🌐 **Live Portfolio:** [krishnasportfolio23.netlify.app](https://krishnasportfolio23.netlify.app)
 
-### 1. Feast Finders: Full-Stack Food Delivery Application
+## 🚀 Featured Projects
 
-Feast Finders is a comprehensive food delivery platform that demonstrates my full-stack development skills. It features a user-friendly interface for customers and an efficient management system for administrators.
+### 1. NBA Fantasy Basketball Platform
+**HTD Talent Capstone Project** - *4-person team collaboration*
+
+A comprehensive full-stack fantasy sports application built in 4 intensive days, featuring role-based authentication, real-time player drafting, and league management.
 
 **Key Features:**
-- User authentication and account creation
-- Secure login system
-- Browse and search for food items
-- Add items to cart
-- Mock checkout process integrated with Stripe
-- Admin panel for order management
+- Admin/User role-based authentication with JWT
+- Real-time NBA player data integration via Sports Radar API
+- Complex drafting mechanics (players unavailable per league after selection)
+- League creation and management system
+- Multi-concurrent league support
+
+**Technologies Used:**
+- **Backend:** Java, Spring Framework, MySQL
+- **Frontend:** React, TypeScript
+- **Security:** JWT Authentication
+- **DevOps:** Docker containerization
+- **APIs:** Sports Radar API for real-time NBA data
+
+**Technical Highlights:**
+- Built complete backend architecture (controller, service, and data layers)
+- Implemented secure role-based access control
+- Developed complex business logic for player drafting mechanics
+- Containerized application with Docker for consistent deployment
+
+---
+
+### 2. Feast Finders: Full-Stack Food Delivery Application
+**🚀 [Live Demo](https://food-delivery-fe-gjj8.onrender.com) | [Admin Panel](https://food-delivery-admin-xtr7.onrender.com) | [GitHub](https://github.com/programmerKJ/FeastFinders_Food_Delivery)**
+
+A comprehensive food delivery platform with real-time order tracking, secure payments, and administrative management.
+
+**Key Features:**
+- User authentication and secure login system
+- Dynamic shopping cart with real-time price calculation
+- Stripe payment integration for secure checkout
+- Admin panel for order and menu management
 - Real-time order status updates (Pending, On the Way, Delivered)
 
 **Technologies Used:**
-- Frontend: React, Vite
-- Backend: Node.js, Express
-- Database: MongoDB
-- Payment Integration: Stripe
-- Authentication: JWT
-- Testing: Jest (backend), Vitest (frontend), Cypress (E2E)
+- **Frontend:** React, Vite
+- **Backend:** Node.js, Express
+- **Database:** MongoDB
+- **Payment:** Stripe API
+- **Authentication:** JWT
+- **Testing:** Jest, Vitest, Cypress (93% code coverage)
 
 **Technical Highlights:**
-- Implemented RESTful API for seamless communication between frontend and backend
-- Utilized React hooks and context for efficient state management
-- Implemented responsive design for optimal user experience across devices
-- Integrated Stripe for secure payment processing
-- Developed a robust admin panel for order management and status updates
-- Achieved 93% code coverage through comprehensive testing:
-  - Unit tests for individual components and functions
-  - Integration tests for API endpoints and database interactions
-  - End-to-end tests with Cypress to ensure full functionality
+- RESTful API design with comprehensive error handling
+- Responsive design optimized for all devices
+- Robust testing suite (unit, integration, and E2E tests)
+- Production deployment with CI/CD pipeline
 
-**Future Enhancements:**
-- Implement real-time notifications for order updates
-- Add user ratings and reviews for food items
-- Integrate with mapping services for real-time delivery tracking
+---
 
+### 3. Meal Master: Personalized Meal Planning Application
+**[GitHub](https://github.com/programmerKJ/Meal_Masters)**
 
-### 2. Meal Master: Personalized Meal Planning Application
-
-Meal Master is a full-stack application designed to help users create personalized meal plans, track their weight, and monitor their progress. It integrates with the Spoonacular API to provide a vast database of meals for users to choose from.
+A full-stack application for creating personalized meal plans, tracking weight, and monitoring health progress with extensive meal database integration.
 
 **Key Features:**
-- User profile creation and management
-- Personalized meal plan creation
+- Personalized meal plan creation and management
 - Weight tracking and progress monitoring
-- Integration with Spoonacular API for meal database access
-- Search functionality for meals
-- Ability to add meals to personal meal plans
+- Integration with Spoonacular API (extensive meal database)
+- Search functionality and meal recommendation system
 
 **Technologies Used:**
-- Frontend: HTML, CSS, JavaScript
-- Backend: Python, Flask
-- Database: PostgreSQL
-- External API: Spoonacular
-- Testing: Jest
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Python, Flask
+- **Database:** PostgreSQL
+- **External API:** Spoonacular
+- **Testing:** Jest
 
 **Technical Highlights:**
-- Developed a Flask-based RESTful API for backend operations
-- Implemented user authentication and session management
-- Created a responsive frontend design for various device sizes
-- Integrated Spoonacular API for extensive meal data
-- Designed and implemented a PostgreSQL database for efficient data storage and retrieval
-- Conducted testing using Jest to ensure functionality and reliability
+- Flask-based RESTful API with session management
+- PostgreSQL database design for efficient data relationships
+- External API integration for comprehensive meal data
+- Secure user authentication and data validation
 
-**Future Enhancements:**
-- Implement nutritional information tracking
-- Add social features for sharing meal plans
-- Integrate with fitness tracking apps for comprehensive health monitoring
+---
 
-### 3. Movie Mingle: Social Media Platform for Movie Enthusiasts
+### 4. Movie Mingle: Social Media Platform for Movie Enthusiasts
+**[GitHub](https://github.com/programmerKJ/Movie_Mingle_Social_Media_Application) | [Demo Video](https://www.loom.com/share/1d6939da9fd5415085f6dbcca78371af?sid=c894d743-7693-4591-99fd-9cc2d5186813)**
 
-Movie Mingle is a full-stack social media application designed for movie enthusiasts to connect, share their thoughts on films and TV shows, and manage their watchlists.
+A full-stack social media application designed for movie enthusiasts to connect, share reviews, and manage their watchlists.
 
 **Key Features:**
-
 - User profiles with customization options
-- Feed section for users to post and interact with content
-- Comment functionality on posts
-- Like system for posts
-- Friend system to connect with other users
-- Watchlist feature to track movies to watch and already watched
-- Integration with a movie database API for comprehensive film information
-- Search functionality to find movies and add them to watchlists
+- Social feed with posts, comments, and like system
+- Friend connections and social interactions
+- Watchlist management (to-watch and watched lists)
+- Movie database integration with search functionality
 
 **Technologies Used:**
-
-- Frontend: React
-- Backend: Node.js, Express
-- Database: MySQL
-- State Management: React Hooks, AppReducer
-- External API: Rapid API, movies DB API
+- **Frontend:** React
+- **Backend:** Node.js, Express
+- **Database:** MySQL
+- **State Management:** React Hooks, AppReducer
+- **External API:** Rapid API (Movies Database)
 
 **Technical Highlights:**
+- Complex database schema handling user relationships
+- Real-time social interactions and updates
+- Efficient state management across the application
+- Integration with external movie database for comprehensive film data
 
-- Implemented a responsive and interactive user interface using React
-- Developed a RESTful API with Express for handling user interactions and data management
-- Utilized AppReducer for efficient state management across the application
-- Integrated external movie database API to provide comprehensive film information
-- Implemented real-time updates for user interactions (comments, likes, friend requests)
-- Designed and implemented a database schema to handle complex relationships between users, posts, and movies
+## 🛠️ Technical Skills
 
-**Future Enhancements:**
+**Programming Languages:**
+- Java, JavaScript, Python, SQL, HTML, CSS, TypeScript
 
-- Implement movie recommendations based on user preferences and watch history
-- Add a rating system for movies and shows
-- Integrate with streaming platforms to show where movies are available to watch
-- Implement real-time chat functionality between friends
+**Frontend Technologies:**
+- React, Vite, CSS Modules, Responsive Design
 
+**Backend Technologies:**
+- Spring Framework, Node.js, Express, Flask
+- RESTful API Design, JWT Authentication
 
-**🛠️ Technologies Used**
-**This portfolio demonstrates proficiency in:**
+**Databases:**
+- MySQL, PostgreSQL, MongoDB
 
-- Frontend: React, Vite, JavaScript, HTML, CSS
-- Backend: Node.js, Express, Python, Flask
-- Databases: MongoDB, PostgreSQL
-- State Management: React Hooks, Context API, AppReducer
-- Testing: Jest, Vitest, Cypress
-- APIs: RESTful API design, External API integration (Stripe, Spoonacular, Movie Database)
-- Other: Git, npm, pip
+**DevOps & Tools:**
+- Docker, Git, Maven, IntelliJ IDEA, VSCode
+- Netlify, Render (deployment platforms)
+
+**Testing & Development:**
+- Jest, Vitest, Cypress
+- Unit Testing, Integration Testing, E2E Testing
+
+**External Integrations:**
+- Stripe API, Spoonacular API, Sports Radar API, Movie Database APIs
 
 ## 🏗️ Setup and Installation
 
-To run this project locally:
+To run this portfolio locally:
 
-1. Clone the repository
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/programmerKJ/Krishna-Joshi-Portfolio.git
    ```
-   git clone https://github.com/yourusername/your-portfolio.git
+
+2. **Navigate to the project directory**
+   ```bash
+   cd Krishna-Joshi-Portfolio
    ```
-2. Navigate to the project directory
-   ```
-   cd your-portfolio
-   ```
-3. Install dependencies
-   ```
+
+3. **Install dependencies**
+   ```bash
    npm install
    ```
-4. Start the development server
-   ```
+
+4. **Start the development server**
+   ```bash
    npm run dev
    ```
 
-## 🔧 Available Scripts
+5. **Access the application**
+   - Local development: `http://localhost:3000`
+   - Live site: [krishnasportfolio23.netlify.app](https://krishnasportfolio23.netlify.app)
 
-In the project directory, you can run:
+## 🔧 Available Scripts
 
 - `npm run dev` - Runs the app in development mode
 - `npm run build` - Builds the app for production
@@ -158,8 +176,13 @@ In the project directory, you can run:
 
 ## 📞 Contact
 
-Feel free to reach out to me at:
+Feel free to reach out to me:
 
-- Email: krihna.joshi28@yahoo.com
-- LinkedIn:(https://www.linkedin.com/in/krishnajoshi28)
-- GitHub: (https://github.com/programmerkj)
+- **Email:** krishna.joshi28@yahoo.com
+- **LinkedIn:** [linkedin.com/in/krishnajoshi28](https://www.linkedin.com/in/krishnajoshi28)
+- **GitHub:** [github.com/programmerKJ](https://github.com/programmerKJ)
+- **Portfolio:** [krishnasportfolio23.netlify.app](https://krishnasportfolio23.netlify.app)
+
+---
+
+**Built with ❤️ by Krishna Joshi**
