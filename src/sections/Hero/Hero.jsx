@@ -51,7 +51,7 @@ function Hero() {
         <p className={styles.description}>
           Driven junior software engineer with a knack for solving complex problems and a passion for continuous learning and innovation.
         </p>
-        <a href="https://drive.google.com/file/d/1MzI4ddkNotX6itm07DT3glCOjigDWqS3/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1Ec3J3pxpNdukjouXlG63JCutTngqFUCo/view?usp=sharing">
           <button className="hover">Resume</button>
         </a>
       </div>
