@@ -8,6 +8,8 @@ import cryptoLight from "../../assets/Cryptocoinlight.png";
 import cryptoDark from "../../assets/Cryptocoindark.png";
 import feastFinderLight from "../../assets/FeastFinderLight.png";
 import feastFinderDark from "../../assets/FeastFinderDark.png";
+import benchwarmersLight from "../../assets/LightBasketball.png"
+import benchwarmersDark from "../../assets/DarkBasketball.png"
 
 import { useTheme } from "../../common/ThemeContext";
 
@@ -18,6 +20,7 @@ function Projects() {
   const mealMasters = theme === "light" ? mealMastersDark : mealMastersLight;
   const crypto = theme === "light" ? cryptoDark : cryptoLight;
   const feastFinder = theme === "light" ? feastFinderDark : feastFinderLight;
+  const benchWarmers = theme === "light" ? benchwarmersLight : benchwarmersDark;
 
   return (
     <section id="projects" className={styles.container}>
@@ -39,6 +42,12 @@ function Projects() {
           }
           h3="Movie Mingle"
           p="Social Media App"
+        />
+        <ProjectCard
+          src={benchWarmers}
+          link={"https://github.com/ProgrammerKJ/Benchwarmers-Fantasy-Basketball-Application"}
+          h3="Benchwarmers"
+          p="Fantasy Basketball Application"
         />
         <ProjectCard
           src={crypto}
